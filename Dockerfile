@@ -10,5 +10,7 @@ RUN npm install --no-progress --no-optional\
 
 COPY ./ ./
 
+EXPOSE 80
+
 ENTRYPOINT [ "npm" ]
 CMD [ "start" ]
